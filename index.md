@@ -15,3 +15,7 @@ title: HaroWorks Legal
 
 - [プライバシーポリシー / Privacy Policy](tapchampion/privacy/)
 - [利用規約 / Terms of Use](tapchampion/terms/)
+
+## テイクイットイージー / Take It Easy
+
+- [プライバシーポリシー / Privacy Policy](takeiteasy/privacy/)
