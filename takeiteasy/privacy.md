@@ -5,7 +5,7 @@ permalink: /takeiteasy/privacy/
 
 # テイクイットイージー / Take It Easy — Privacy Policy
 
-**発効日 / Effective:** 2026-10-22 ・ **最終更新日 / Last updated:** 2026-10-22 ・ **バージョン / Version:** 1.0 ・ **連絡先 / Contact:** [support@haroworks.com](mailto:support@haroworks.com) ・ **applicationId / Bundle ID:** `com.haroworks.takeiteasy`
+**発効日 / Effective:** 2026-10-27 ・ **最終更新日 / Last updated:** 2026-10-27 ・ **バージョン / Version:** 1.0 ・ **連絡先 / Contact:** [support@haroworks.com](mailto:support@haroworks.com) ・ **applicationId / Bundle ID:** `com.haroworks.takeiteasy`
 
 [← Index](../../)
 
@@ -33,7 +33,8 @@ permalink: /takeiteasy/privacy/
 
 次のデータは利用者の端末内にだけ保存し、端末の外へ送りません。
 
-- タイマーの設定（作業・休憩の長さ、本数、応援テキストの表示間隔とカテゴリ、バイブ・通知・リマインダーの設定、言語）
+- タイマーの設定（使い方のシーンの名前と作業・休憩の長さ・本数、応援テキストの表示間隔、バイブ・通知・リマインダーの設定、言語、文字盤・色のテーマ・明るさなどの表示）
+- 音楽のリンク（利用者が登録した音楽アプリのリンクとその名前、作業・休憩で使うリンクの選択）
 - タイマーの状態（実行中のフェーズと終了時刻。アプリを閉じても続きから再開するため）
 - 実績（累計の完了本数・累計の作業時間・今日の完了数）
 - 表示した応援テキストの記録（同じことばが続かないようにするため）
@@ -45,12 +46,16 @@ permalink: /takeiteasy/privacy/
 
 区切りの通知と日次リマインダーは、端末の中で予約するローカル通知です。通知の内容が開発者や第三者のサーバーを経由することはありません。
 
+#### 第 4 条の 2 (音楽のリンク)
+
+音楽のリンクを押すと、そのリンクを端末の音楽アプリやブラウザで開きます。本アプリが音楽を再生・停止することはありません。開いた先での情報の扱いは、そのアプリやサービスの方針によります。登録したリンクとその名前は、開発者や第三者のサーバーへ送りません。
+
 #### 第 5 条 (利用状況の分析 — Firebase Analytics)
 
 機能の改善のため、Google の Firebase Analytics を使います。本アプリが記録するイベントは次のとおりで、応援テキストの本文や、利用者を特定できる情報は含みません。
 
 - `phase_start` / `phase_complete` / `phase_skip`（作業・休憩の種類、長さ（分）、何本目か）
-- `settings_change`（変えた設定の項目と新しい値。リマインダーの時刻は送りません）
+- `settings_change`（変えた設定の項目と新しい値。リマインダーの時刻、音楽のリンクとその名前、シーンの名前は送りません。音楽のリンクは登録した数と、作業・休憩で選んでいるかどうかだけを送ります）
 - `tip_result`（応援チップの段と結果）
 
 あわせて Firebase Analytics は、アプリのインスタンス ID、端末の機種、OS・アプリのバージョン、言語、IP アドレスから推定したおおよその地域（国・地域・都市の単位）、起動・利用時間、アプリの更新、アプリ内課金のイベント（商品 ID・価格）を自動で収集します。開発者はこれらを統計として見るために使います。
@@ -118,7 +123,8 @@ The App has no sign-up or sign-in and never asks for your name, email address, o
 
 The following data is stored only on your device and is never sent off it:
 
-- Timer settings (work and break lengths, number of sessions, how often and which cheer messages to show, vibration / notification / reminder settings, language)
+- Timer settings (scene names with their work and break lengths and number of sessions, how often cheer messages change, vibration / notification / reminder settings, language, and display settings such as the timer face, color theme, and appearance)
+- Music links (the links from your music app that you save, their names, and which ones you use for focus and breaks)
 - Timer state (the current phase and its end time, so the timer resumes after the App is closed)
 - Your totals (completed pomodoros, total focus time, today's count)
 - A record of cheer messages already shown (so the same words don't repeat)
@@ -130,12 +136,16 @@ Deleting the App deletes this data.
 
 Phase-end notifications and the daily reminder are local notifications scheduled on your device. Their content never passes through our servers or any third party's.
 
+#### 4-2. Music links
+
+When you tap a music link, the App opens it in your music app or browser on the device. The App never plays or stops music. What happens after that is governed by that app's or service's own policy. The links you save and their names are not sent to the developer or any third-party server.
+
 #### 5. Usage analytics — Firebase Analytics
 
 To improve the App, we use Google's Firebase Analytics. The App records the following events, which contain neither the text of cheer messages nor anything that identifies you:
 
 - `phase_start` / `phase_complete` / `phase_skip` (work or break, length in minutes, which session)
-- `settings_change` (the setting changed and its new value; the reminder time is not sent)
+- `settings_change` (the setting changed and its new value; the reminder time, music links and their names, and scene names are not sent — for music links, only how many you saved and whether one is chosen for focus or breaks)
 - `tip_result` (the tip tier and its result)
 
 Firebase Analytics also automatically collects the app instance ID, device model, OS and app version, language, approximate location derived from your IP address (country / region / city level), app opens and usage time, app updates, and in-app purchase events (product ID and price). We use this only to view aggregate statistics.
