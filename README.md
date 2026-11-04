@@ -9,6 +9,7 @@ HaroWorks アプリのプライバシーポリシー / 利用規約を GitHub Pa
 - Tap Champion Privacy: <https://ys4614.github.io/legal/tapchampion/privacy/>
 - Tap Champion Terms: <https://ys4614.github.io/legal/tapchampion/terms/>
 - Take It Easy Privacy: <https://ys4614.github.io/legal/takeiteasy/privacy/>
+- Take It Easy Terms: <https://ys4614.github.io/legal/takeiteasy/terms/>
 
 掲載文の原本:
 

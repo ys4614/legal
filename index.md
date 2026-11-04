@@ -19,3 +19,4 @@ title: HaroWorks Legal
 ## テイクイットイージー / Take It Easy
 
 - [プライバシーポリシー / Privacy Policy](takeiteasy/privacy/)
+- [利用規約 / Terms of Use](takeiteasy/terms/)
